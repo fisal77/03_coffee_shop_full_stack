@@ -1,0 +1,93 @@
+
+fisal0707@gmail.com (Manager Role)
+
+https://jwt.io/#debugger-io?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImxqZWJ1UFlhNkU2d0F0WmpvaDVkWiJ9.eyJpc3MiOiJodHRwczovL2Rldi00a3RjdHcxdC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjBlNzM2MzFlOGRhNWEwMDZhZWY5Mjk2IiwiYXVkIjoidWRhY2l0eS1mc25kIiwiaWF0IjoxNjI1NzY3NTg0LCJleHAiOjE2MjU3NzQ3ODQsImF6cCI6Ildnc1dUSXhyMTNuUFFQMGVGRkhjbWtXT1RtTVpaVUpoIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiLCJwYXRjaDpkcmlua3MiLCJwb3N0OmRyaW5rcyJdfQ.THgLsJQoLx7O1uKET1ZqNEYNmpaoV9aBnjSzpkkarOWMs1FVXhUvUSL6F3w5aSM7m3tVSPbsW5AotgJDOrwUsabFz3Z8aawnC0Q7YGEjGVfHgpDJsgz7Tmhk7hOaPywMouKGDGUnRSKY-MnUWSCdG7R-dlK1pc38LFhqZd2ehiFTeLtAKRAibtmqLhSHUSBUlZjuFHnbspXIgNvDEW1Rl39Du16JUq1EA7VwDCnalt9hvwKLblNUkHxtVAGDzQYqjjPWFqDhrkoJN4qlrVhvWWCvPY0YXvrvXcUW6lQZSTNlOfvttobunQWIV-cp7sv4OkRI-FAaQOePPZWOm3i7Tg&publicKey=-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApwOb7tna3bBXlzoQ%2BHbP%0AyWXR4afBlWOD6e86AvRf%2BFgQkBz0IPFQTVCDq7NFCLo1S1htxXTHEyP%2F4ESQzGYU%0ASv1cQFZr6bYDCBE%2Fn9ClWFZ0%2FMgJ%2FqZxQgDg0WuzBp72N6uEg9vNYtHESqUOE0uW%0AT40%2BHex4oQn1eqYFEsUz8BOBPf%2BtI3stvxRdvihAObw1ig3Dr3k%2FEos8ber1qv9c%0ALEqnsXRniiUSWmpoii1V9kXxaAtUuUjzi7qCissCR5mUu5MakJZ86aIjPqg7Fh48%0AfQEWLClnJSWJekL%2BoKc0co%2B975J%2FKPUGOwLM5kEnA%2Br2AxHtwcnxigYMe6b%2FgeZE%0AbQIDAQAB%0A-----END%20PUBLIC%20KEY-----%0A
+
+JWT = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImxqZWJ1UFlhNkU2d0F0WmpvaDVkWiJ9.eyJpc3MiOiJodHRwczovL2Rldi00a3RjdHcxdC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjBlNzM2MzFlOGRhNWEwMDZhZWY5Mjk2IiwiYXVkIjoidWRhY2l0eS1mc25kIiwiaWF0IjoxNjI1NzY3NTg0LCJleHAiOjE2MjU3NzQ3ODQsImF6cCI6Ildnc1dUSXhyMTNuUFFQMGVGRkhjbWtXT1RtTVpaVUpoIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiLCJwYXRjaDpkcmlua3MiLCJwb3N0OmRyaW5rcyJdfQ.THgLsJQoLx7O1uKET1ZqNEYNmpaoV9aBnjSzpkkarOWMs1FVXhUvUSL6F3w5aSM7m3tVSPbsW5AotgJDOrwUsabFz3Z8aawnC0Q7YGEjGVfHgpDJsgz7Tmhk7hOaPywMouKGDGUnRSKY-MnUWSCdG7R-dlK1pc38LFhqZd2ehiFTeLtAKRAibtmqLhSHUSBUlZjuFHnbspXIgNvDEW1Rl39Du16JUq1EA7VwDCnalt9hvwKLblNUkHxtVAGDzQYqjjPWFqDhrkoJN4qlrVhvWWCvPY0YXvrvXcUW6lQZSTNlOfvttobunQWIV-cp7sv4OkRI-FAaQOePPZWOm3i7Tg'
+
+HEADER:ALGORITHM & TOKEN TYPE:
+{
+  "alg": "RS256",
+  "typ": "JWT",
+  "kid": "ljebuPYa6E6wAtZjoh5dZ"
+}
+
+Payload (Data):
+{
+  "iss": "https://dev-4ktctw1t.us.auth0.com/",
+  "sub": "auth0|60e73631e8da5a006aef9296",
+  "aud": "udacity-fsnd",
+  "iat": 1625767584,
+  "exp": 1625774784,
+  "azp": "WgsWTIxr13nPQP0eFFHcmkWOTmMZZUJh",
+  "scope": "",
+  "permissions": [
+    "delete:drinks",
+    "get:drinks-detail",
+    "patch:drinks",
+    "post:drinks"
+  ]
+}
+
+SIGNATURE:
+RSASHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApwOb7tna3bBXlzoQ+HbP
+yWXR4afBlWOD6e86AvRf+FgQkBz0IPFQTVCDq7NFCLo1S1htxXTHEyP/4ESQzGYU
+Sv1cQFZr6bYDCBE/n9ClWFZ0/MgJ/qZxQgDg0WuzBp72N6uEg9vNYtHESqUOE0uW
+T40+Hex4oQn1eqYFEsUz8BOBPf+tI3stvxRdvihAObw1ig3Dr3k/Eos8ber1qv9c
+LEqnsXRniiUSWmpoii1V9kXxaAtUuUjzi7qCissCR5mUu5MakJZ86aIjPqg7Fh48
+fQEWLClnJSWJekL+oKc0co+975J/KPUGOwLM5kEnA+r2AxHtwcnxigYMe6b/geZE
+bQIDAQAB
+-----END PUBLIC KEY-----
+
+
+
+_______________________________
+
+
+fisal77@hotmail.com (Barista Role)
+
+https://jwt.io/#debugger-io?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImxqZWJ1UFlhNkU2d0F0WmpvaDVkWiJ9.eyJpc3MiOiJodHRwczovL2Rldi00a3RjdHcxdC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjBlNzM1MjAxMDlkMTAwMDcxNGZkYzFlIiwiYXVkIjoidWRhY2l0eS1mc25kIiwiaWF0IjoxNjI1NzY5MDM1LCJleHAiOjE2MjU3NzYyMzUsImF6cCI6Ildnc1dUSXhyMTNuUFFQMGVGRkhjbWtXT1RtTVpaVUpoIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzLWRldGFpbCJdfQ.BLRqYwwr2NF5YZoKjTLEfraqC0CX6-tZqOmCSDjNz8Jb0O_BL-m_qvP7w9VdNV7JPN4-uwimaWprnssKdbY9vaLJaazFTHIaxqPpkzoY60ma5Qg9B5Fd8sAOfmfBpGkXoq9PuB04Vq4-5JImykuHhqoBrrd8rp4Jy1SNc-DuRgVYgz9OdXp95L_mT3Bz2LzIveUd5XHCOg1U1R_FgfyNHFkth6bibvm4MOUwAVJgHnTCvxXixkGvyg-dN522g12lgHw_AQ0rIVNpQTcD3sYDtDD06vwbFfv2fFHzp9qCUS4PKbkl0zrcMQxBjF-G5iaKhzWC4IUpWgoOZZYwGuHCwg&publicKey=-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApwOb7tna3bBXlzoQ%2BHbP%0AyWXR4afBlWOD6e86AvRf%2BFgQkBz0IPFQTVCDq7NFCLo1S1htxXTHEyP%2F4ESQzGYU%0ASv1cQFZr6bYDCBE%2Fn9ClWFZ0%2FMgJ%2FqZxQgDg0WuzBp72N6uEg9vNYtHESqUOE0uW%0AT40%2BHex4oQn1eqYFEsUz8BOBPf%2BtI3stvxRdvihAObw1ig3Dr3k%2FEos8ber1qv9c%0ALEqnsXRniiUSWmpoii1V9kXxaAtUuUjzi7qCissCR5mUu5MakJZ86aIjPqg7Fh48%0AfQEWLClnJSWJekL%2BoKc0co%2B975J%2FKPUGOwLM5kEnA%2Br2AxHtwcnxigYMe6b%2FgeZE%0AbQIDAQAB%0A-----END%20PUBLIC%20KEY-----%0A
+
+JWT = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImxqZWJ1UFlhNkU2d0F0WmpvaDVkWiJ9.eyJpc3MiOiJodHRwczovL2Rldi00a3RjdHcxdC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjBlNzM1MjAxMDlkMTAwMDcxNGZkYzFlIiwiYXVkIjoidWRhY2l0eS1mc25kIiwiaWF0IjoxNjI1NzY5MDM1LCJleHAiOjE2MjU3NzYyMzUsImF6cCI6Ildnc1dUSXhyMTNuUFFQMGVGRkhjbWtXT1RtTVpaVUpoIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzLWRldGFpbCJdfQ.BLRqYwwr2NF5YZoKjTLEfraqC0CX6-tZqOmCSDjNz8Jb0O_BL-m_qvP7w9VdNV7JPN4-uwimaWprnssKdbY9vaLJaazFTHIaxqPpkzoY60ma5Qg9B5Fd8sAOfmfBpGkXoq9PuB04Vq4-5JImykuHhqoBrrd8rp4Jy1SNc-DuRgVYgz9OdXp95L_mT3Bz2LzIveUd5XHCOg1U1R_FgfyNHFkth6bibvm4MOUwAVJgHnTCvxXixkGvyg-dN522g12lgHw_AQ0rIVNpQTcD3sYDtDD06vwbFfv2fFHzp9qCUS4PKbkl0zrcMQxBjF-G5iaKhzWC4IUpWgoOZZYwGuHCwg'
+
+HEADER:ALGORITHM & TOKEN TYPE:
+{
+  "alg": "RS256",
+  "typ": "JWT",
+  "kid": "ljebuPYa6E6wAtZjoh5dZ"
+}
+
+PAYLOAD:DATA:
+{
+  "iss": "https://dev-4ktctw1t.us.auth0.com/",
+  "sub": "auth0|60e73520109d1000714fdc1e",
+  "aud": "udacity-fsnd",
+  "iat": 1625769035,
+  "exp": 1625776235,
+  "azp": "WgsWTIxr13nPQP0eFFHcmkWOTmMZZUJh",
+  "scope": "",
+  "permissions": [
+    "get:drinks-detail"
+  ]
+}
+
+VERIFY SIGNATURE:
+RSASHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApwOb7tna3bBXlzoQ+HbP
+yWXR4afBlWOD6e86AvRf+FgQkBz0IPFQTVCDq7NFCLo1S1htxXTHEyP/4ESQzGYU
+Sv1cQFZr6bYDCBE/n9ClWFZ0/MgJ/qZxQgDg0WuzBp72N6uEg9vNYtHESqUOE0uW
+T40+Hex4oQn1eqYFEsUz8BOBPf+tI3stvxRdvihAObw1ig3Dr3k/Eos8ber1qv9c
+LEqnsXRniiUSWmpoii1V9kXxaAtUuUjzi7qCissCR5mUu5MakJZ86aIjPqg7Fh48
+fQEWLClnJSWJekL+oKc0co+975J/KPUGOwLM5kEnA+r2AxHtwcnxigYMe6b/geZE
+bQIDAQAB
+-----END PUBLIC KEY-----
+
+
+

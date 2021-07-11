@@ -39,8 +39,14 @@ def db_drop_and_create_all():
         recipe='[{"name": "water", "color": "blue", "parts": 1}]'
     )
 
+    '''
+    @TODO uncomment the following line to initialize the datbase
+    !! NOTE THIS WILL DROP ALL RECORDS AND START YOUR DB FROM SCRATCH
+    !! NOTE THIS MUST BE UNCOMMENTED ON FIRST RUN
+    !! Running this funciton will add one
+    '''
+    # drink.insert()
 
-drink.insert()
 # ROUTES
 
 '''
